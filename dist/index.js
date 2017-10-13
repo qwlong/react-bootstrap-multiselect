@@ -18,7 +18,7 @@ if (typeof window !== 'undefined' && window && window.jQuery) {
 	window.jQuery = $;
 }
 
-var BS = require('bootstrap');
+var BS = require('react-bootstrap');
 var React = require('react');
 var objectAssign = require('object-assign');
 var getOptions = require('./get-options.js');
